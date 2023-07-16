@@ -1,0 +1,48 @@
+﻿<Window x:Class="HotelABC.Vistas.AddEmp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelABC.Vistas"
+        mc:Ignorable="d"
+        Title="AddEmp" Height="450" Width="303">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Label Content="PK Empleado:" Grid.Row="0" />
+        <TextBox x:Name="TxtPkEmpleado" Grid.Row="0" Margin="100,0,0,0" Width="150" />
+
+        <Label Content="RFC:" Grid.Row="1" />
+        <TextBox x:Name="TxtRfc" Grid.Row="1" Margin="100,0,0,0" Width="150" />
+
+        <Label Content="Nombre:" Grid.Row="2" />
+        <TextBox x:Name="TxtNombre" Grid.Row="2" Margin="100,0,0,0" Width="150" />
+
+        <Label Content="Apellido Pat:" Grid.Row="3" />
+        <TextBox x:Name="TxtApellidoPat" Grid.Row="3" Margin="100,0,0,0" Width="150" />
+
+        <Label Content="Apellido Mat:" Grid.Row="4" />
+        <TextBox x:Name="TxtApellidoMat" Grid.Row="4" Margin="100,0,0,0" Width="150" />
+
+        <Label Content="Teléfono:" Grid.Row="5" />
+        <TextBox x:Name="TxtTelefono" Grid.Row="5" Margin="100,0,0,0" Width="150" />
+
+        <Label Content="Correo:" Grid.Row="6" />
+        <TextBox x:Name="TxtCorreo" Grid.Row="6" Margin="100,0,0,0" Width="150" />
+
+        <Label Content="Password:" Grid.Row="7" />
+        <PasswordBox x:Name="TxtPassword" Grid.Row="7" Margin="100,0,0,0" Width="150" />
+
+        <Button x:Name="BtnGuardar" Content="Guardar" Grid.Row="8" Margin="150,13,0,7" HorizontalAlignment="Left" Width="100" Click="BtnGuardar_Click_1" />
+    </Grid>
+</Window>
